@@ -1,4 +1,3 @@
-const path = require('path')
 const fg = require('fast-glob')
 const fs = require('fs-extra')
 const xml2js = require('xml2js')
@@ -48,7 +47,6 @@ async function writeSvgSprite(output, svgSprite) {
     return await fs.writeFile(output, outputFile)
 }
 
-// solid--academic-cap
 async function purgeSvgSprite (input, output, content) {
     const svgSprite = await getSvgSprite(input)
     const contentFiles = await getContentFiles(content)
