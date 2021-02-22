@@ -28,7 +28,7 @@
     "dist",
     "bin"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "description": "Sort of like purge css, will purge the unused symbols in svg sprite...",
   "repository": "https://github.com/ivanchenhz/purge-svg-sprite.git",
